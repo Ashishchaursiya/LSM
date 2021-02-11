@@ -18,60 +18,164 @@
   <body>
       <!-- home screen-->
 <!--navbar-->
-     <nav>
-      <div class="menu-icon">
-<span class="fa fa-bars"></span></div>
-<div class="logo">
-<img src="images/logo.jpg" alt='logo' class="fluid-img" id="hm-img" /></div>
-<div class="nav-items">
- 
-      <li class="nav-item">
-        <a class="nav-link custom-link" href="#footer">About</a>
-      </li>
- 
-   <li class="nav-item">
-        <a class="nav-link custom-link" href="#team">Team</a>
-      </li>
+<nav class="navbar navbar-expand-lg navbar-light bg-light py-0">
+  <a class="navbar-brand" href="#"><img src="images/logo.jpg" class="img-fluid" /></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
- 
- 
-   <li class="nav-item dropdown">
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#footer">About <span class="sr-only"> </span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#team">Team</a>
+      </li>
+      <li class="nav-item dropdown menu-area">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Courses
+        Training
         </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Cyber Security</a>
-          <a class="dropdown-item" href="#">IOT</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Other Course</a>
+        <div class="dropdown-menu mega-area" aria-labelledby="navbarDropdown">
+          <div class="row text-uppercase py-3">
+          <div class="col-lg-3">
+          <h6 class="dropdown-item">Popular Courses: </h6>
+             <a class="dropdown-item" href="#">Ethical Hacking certification Level 1</a>
+          <a class="dropdown-item" href="#">Advanced Penetration Testing Level 2</a>
+          
+          <a class="dropdown-item" href="#">Cyber Forensics Investigation Level 3 </a>
+          <a class="dropdown-item" href="#">In-Depth Advanced Networking Level 4 </a>
+          <a class="dropdown-item" href="#">Web Application Security Level 5</a>
+          <a class="dropdown-item" href="#">Mobile Application Security Level 6 </a>
+          <a class="dropdown-item" href="#">Python For Pentester Level 7 </a>
+          <h6 class="dropdown-item">CompTIA Certification: </h6>
+          <a class="dropdown-item" href="#">CompTIA PenTest+(plus) Training and Certification </a>
+          <a class="dropdown-item" href="#">CompTIA Security(+) Plus Training and Certification </a>
+           
+          <a class="dropdown-item" href="#">CompTIA A+ Training and Certification </a>
+          </div>
+           <div class="col-lg-3">
+            <h6 class="dropdown-item"> RedHat Courses: </h6>
+             <a class="dropdown-item" href="#">RedHat Certified System Administrator</a>
+          <a class="dropdown-item" href="#">RedHat Certified Engineer</a>
+         
+          <a class="dropdown-item" href="#">RedHat Certified Virtualization Administrator</a>
+           <a class="dropdown-item" href="#">Red Hat Certified Engineer-2Take</a>
+            <a class="dropdown-item" href="#">RedHat Certified Architect</a>
+             <a class="dropdown-item" href="#">RedHat Certified Security Specialist</a>
+             <h6 class="dropdown-item"> Cisco Courses: </h6>
+             <a class="dropdown-item" href="#">Cisco Certified Network Associate</a>
+             <a class="dropdown-item" href="#">CCNA Security</a>
+             <a class="dropdown-item" href="#">Cisco Certified Network Professional</a>
+             
+             
+          </div>
+           <div class="col-lg-3">
+           
+             <a class="dropdown-item" href="#">CCIE Security</a>
+          <a class="dropdown-item" href="#">Cisco Certified Internetwork Expert</a>
+           <h6 class="dropdown-item">100% Job Guaranteed Course: </h6>
+          <a class="dropdown-item" href="#">Information Security</a>
+          <a class="dropdown-item" href="#">6 Month Diploma</a>
+               <h6 class="dropdown-item"> Programing:</h6>
+             <a class="dropdown-item" href="#">Web Development</a>
+          <a class="dropdown-item" href="#">python</a>
+          <a class="dropdown-item" href="#">WebDevlopment with Ruby on Rail</a>
+          <a class="dropdown-item" href="#">Java</a>
+          <a class="dropdown-item" href="#">PHP</a>
+           <a class="dropdown-item" href="#">Android Development</a>
+        
+          </div>
+            <div class="col-lg-3">
+            <h6 class="dropdown-item">ISACA Courses: </h6>
+             <a class="dropdown-item" href="#">Certified Information Systems Auditor</a>
+          <a class="dropdown-item" href="#">Certified Information Security Manager</a>
+          <h6 class="dropdown-item">DFS Diploma Forensics Science:</h6>
+          <a class="dropdown-item" href="#">DFS10.1 Certified Computer Forensics Analyst</a>
+          <a class="dropdown-item" href="#">DFS10.2 Certified Computer Forensics Professional</a>
+          
+          </div>
+          </div>
         </div>
       </li>
- <div class="login text-center">
- <a type=href="#" class="nav-link btn btn-outline-primary">Login</a>
-</div>
-</div>
-<div class="search-icon">
-<span class="fa fa-search"></span></div>
-<div class="cancel-icon">
-<span class="fa fa-times"></span></div>
- 
-<form action="#">
-        <input type="search" class="search-data" placeholder="Search" required>
-        <button type="submit" class="fa fa-search"></button>
-      </form>
-<button type="button" class="btn btn-outline-primary mx-2" id="login">Login</button>
+      
+      <li class="nav-item dropdown menu-area">
+        <a class="nav-link dropdown-toggle" href="#" id="mega-one" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Service
+        </a>
+        <div class="dropdown-menu mega-area" aria-labelledby="mega-one">
+          <div class="row text-uppercase py-3">
+          <div class="col-lg-4">
+          <h6 class="dropdown-item"> Managed Service </h6>
+             <a class="dropdown-item" href="#">MANAGED DETECTION RESPONSE</a>
+          <a class="dropdown-item" href="#">SIEM</a>
+          
+          <a class="dropdown-item" href="#">BREACH DETECTION </a>
+          <a class="dropdown-item" href="#">ENDPOINT PROTECTION </a>
+          <a class="dropdown-item" href="#">DDOS</a>
+          <a class="dropdown-item" href="#">EMAIL SECURITY </a>
+          <a class="dropdown-item" href="#">ENCRYPTION </a>
+          <a class="dropdown-item" href="#">FIREWALL </a>
+          <a class="dropdown-item" href="#">IDS / IPS </a>
+          <a class="dropdown-item" href="#">INCIDENT RESPONSE, FORENSICS & MALWARE ANALYSIS </a>
+          <a class="dropdown-item" href="#">NAC </a>
+          </div>
+           <div class="col-lg-4">
+            <h6 class="dropdown-item"> CONNECTED SYSTEMS </h6>
+             <a class="dropdown-item" href="#">ICS / SCADA REAL-TIME MONITORING</a>
+          <a class="dropdown-item" href="#">TECHNICAL ASSESSMENT</a>
+         
+          <a class="dropdown-item" href="#">ARCHITECTURE REVIEW & ASSESSMENT</a>
+           <a class="dropdown-item" href="#">MOBILE DEVICE & APPLICATION TESTING</a>
+            <a class="dropdown-item" href="#">SMART DEVICE TESTING </a>
+             <a class="dropdown-item" href="#">IOT / IIOT</a>
+              <a class="dropdown-item" href="#">SMART CITIES</a>
+               <a class="dropdown-item" href="#">EMBEDDED SYSTEMS</a>
+          </div>
+           <div class="col-lg-4">
+            <h6 class="dropdown-item"> PROFESSIONAL SERVICES </h6>
+             <a class="dropdown-item" href="#">TESTING</a>
+          <a class="dropdown-item" href="#">COMPLIANCE</a>
+          <a class="dropdown-item" href="#">TRAINING</a>
+          <a class="dropdown-item" href="#">TALENT ACQUISITION</a>
+          <a class="dropdown-item" href="#">THREATADVISOR</a>
+          </div>
+          </div>
+        </div>
+      </li>
+     
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2 form-rounded" type="search" placeholder="Search Courses" aria-label="Search" required>
+      <button type="submit" class="fa fa-search"></button>
+    </form>
+    <button type="button" class="btn btn-outline-primary mx-2" id="login">Login</button>
+    <button type="button" class="rounded-pill btn btn-outline-primary  btn-block my-2" id="log2">Login</button>
+  </div>
 </nav>
-
-      <!--home-->
+<!--testing-->
+<div class="wrapper">
+      <div class="h-text p-5 my-auto w-50">
+            <h1>Cyber Security</h1>
+           <p>Lets learn and grow  in cyber security. protect your data and privacy.
+            Our goal is to keep your organization safe and mitigate risk, regardless of what business function you perform.
+                </p>
+          <button class="btn btn-primary px-4" href="#"> Explore</a>
+       </div>
+</div>
+      <!--home 
     
       <section  id="home">
        <div class="text  p-5 my-auto w-50">
-           <h1>Cyber Security</h1>
+            <h1>Cyber Security</h1>
            <p>Lets learn and grow  in cyber security. protect your data and privacy.
-               Our goal is to keep your organization safe and mitigate risk, regardless of what business function you perform.</p>
+            Our goal is to keep your organization safe and mitigate risk, regardless of what business function you perform.
+                </p>
           <button class="btn btn-primary px-4" href="#"> Explore </a>
        </div>
       </section>
+      
+      -->
 <!--partner-->
 <div class="container text-center py-5" id="partner" data-aos="fade-up">
  <p class=" text-center text-muted">Collabaration with best leading college and Univercity  </p>
@@ -471,4 +575,4 @@ These Courses are affordable and life changing. atleast, you should explore.
       });
    </script>
   </body>
-</html>
+</html> 
